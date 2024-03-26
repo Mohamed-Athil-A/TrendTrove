@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendTrove </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <script
+      src="https://kit.fontawesome.com/03bc58248c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Catamaran:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="logo">
+       <h1>Trend<span>Trove</span></h1>
+      </div>
+      <div id="menuList" class="list">
+        <ul >
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li id="Page">
+            <a href="#">Pages.</a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Block</a></li>
+                <li><a href="">Block Single</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">404 Page</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Shop.</a>
+            <div class="dropdown">
+              <ul id>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Product Details</a></li>
+                <li><a href="">Checkout</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Confirmation</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="account">
+            <a href="#">Account.</a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="">Dashboard</a></li>
+                <li><a href="">Orders</a></li>
+                <li><a href="">Downloads</a></li>
+                <li><a href="">Address</a></li>
+                <li><a href="">Profile Details</a></li>
+                <li><a href="">Login Page</a></li>
+                <li><a href="">SignUp Page</a></li>
+                <li><a href="">Forgot Password</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="icons">
+        <input id="input" type="text" placeholder="Search . . ."/> 
+        <div class="icon">
+          <i onclick="press()" class="fa-solid fa-magnifying-glass"></i>
+        
+        </div>
+        
+        <div class="icon"><i class="fa-solid fa-cart-shopping"></i></i></div>
+        <div class="icon"><i class="fa-solid fa-user"></i></div>
+      </div>
+      <div  class="bars">
+       <i onclick="toggle()" class="fa-solid fa-bars"></i>
+      </div>
+   
+    </header>
+
+    <!--SCROLL TOP-->
+    
+    <div class="scroll-top">
+     <i class="fa-solid fa-arrow-up" onclick="scrollToTop()"></i>
+    </div>
+
+    <!--MAIN-->
+
+    <div class="gradiant">
+      
+      <div class="icon-left">
+        <i class="fa-solid fa-arrow-left"></i>
+     </div>
+     <div class="icon-right">
+        <i class="fa-solid fa-arrow-right"></i>
+     </div>
+    
+      <img class="anim" src="img/pic.png" alt="">
+      <h1 class="bg-text">ECOM</h1>
+      <div class="contents">
+        
+        <div class="content">
+        <p class="anim">Trendy Dress</p>
+      <h1 class="Winter anim-1">Winter</h1>         
+      <h1 class="collection anim-2"> Collection </h1>
+      </div>
+      <div class="shop-now anim-3">
+        <button type="submit">Shop Now</button>
+      </div>
+      </div>  
+    </div>
+
+    <!--AD-->
+
+    <div class="ad">
+        <div class="ad-1">
+          <div class="image"><img src="img/watch-pic-removebg-preview.png" alt="watch">
+          </div>
+          <div class="content">
+            <p class="content-1">Stylish Leather Watch</p>
+            <p class="content-2">up to 50% off</p>
+            <a href="#">SHOP NOW</a>
+          </div>
+
+        </div>
+        <div class="ad-1">
+          <div class="image-2"><img src="img/cat-2-removebg-preview.png" alt="watch">
+          </div>
+          <div class="content">
+            <p class="content-1">Stylish Leather Watch</p>
+            <p class="content-2">up to 50% off</p>
+            <a href="#">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="ad-1">
+          <div class="image-3"><img src="img/shoe.png" alt="watch">
+          </div>
+          <div class="content">
+            <p class="content-1">Stylish Leather Watch</p>
+            <p class="content-2">up to 50% off</p>
+            <a href="#">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <!--NEW-->
+      <div class="new">
+        <h1>New Arrivals</h1>
+        <p>The best Online sales to shop these weekend</p>
+      </div>
+      <!--CARDS-->
+      <div class="cards">
+        <div class="cards-grid">
+          <div class="grid">
+            <div class="grid-image"></div>
+            <div class="sale">
+              <p>SALE</p>
+            </div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div>
+            <div class="image-content">
+              <h4>Londra</h4>
+              <p>&#8377 999</p>
+            </div>
+          </div>
+
+            <div class="grid">
+            <div class="grid-image-1"></div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div>           
+            <div class="image-content">
+              <h4>T-Shirt (Tom & Jerry)</h4>
+              <p>&#8377   399</p>
+            </div>
+          </div>
+
+            <div class="grid">
+            <div class="grid-image-2"></div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div>
+             <div class="sale">
+              <p>SALE</p>
+            </div>
+            <div class="image-content">
+              <h4>Romper-Dark Green</h4>
+              <p>&#8377 999</p>
+            </div>
+          </div>
+
+            <div class="grid">
+            <div class="grid-image-3"></div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div> 
+            <div class="image-content">
+              <h4>Gene Shirt-Blue</h4>
+              <p>&#8377 1499</p>
+            </div>
+          </div>
+
+          <!--SECOND ROW-->
+              <div class="grid">
+            <div class="grid-image-4"></div>
+            <div class="sale">
+              <p>SALE</p>
+            </div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div>
+            <div class="image-content">
+              <h4>Abaya</h4>
+              <p>&#8377 1499</p>
+            </div>
+          </div>
+
+            <div class="grid">
+            <div class="grid-image-5"></div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div>
+          
+           
+            <div class="image-content-5">
+              <h4>Contrast Fring Button Keyhoe Babydoll Blouse </h4>
+              <p>&#8377   399</p>
+            </div>
+          </div>
+
+            <div class="grid">
+            <div class="grid-image-6"></div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div>
+             <div class="sale">
+              <p>SALE</p>
+            </div>
+            
+            <div class="image-content">
+              <h4>Linen Printed Shirt</h4>
+              <p>&#8377 999</p>
+            </div>
+          </div>
+
+            <div class="grid">
+            <div class="grid-image-7"></div>
+            <div class="image-icons">
+              <i class="fa-solid fa-cart-shopping cart-1"></i>
+              <i class="fa-solid fa-heart cart-2"></i>              
+            </div> 
+            <div class="image-content-7">
+              <h4>Men Slant Pocket Drawstring Waist Trowsers</h4>
+              <p>&#8377 499</p>
+            </div>
+          </div>      
+        </div>             
+      </div>
+      <!--ADVERTISE-->
+      
+      <div class="advertise">
+
+          <img src="img/models/models-removebg-preview.png" alt="">
+        
+        <div class="advertise-content">
+          <div class="deal">
+            <p>Deal of the day 50% Off</p>
+          </div>
+          <h1>Trendy Suit</h1>
+          <p class="hurry">Hurry up! Limited time offer.Grab ot now!</p>
+          <p class="count">The countdown is finished!</p>
+          <button type="submit">Shop Now</button>
+        </div>
+      </div>
+
+      <!--TREND GRID-->
+
+      <div class="trend-grid">
+        <div class="grids">
+          <div class="grids-img"></div>
+
+          <div class="best">
+            <div class="seller">
+              <h2>Best Sellers</h2>
+            </div>
+            <div class="item">
+              <div class="item-img-1">
+              </div>
+              <div class="item-name">
+                <p>Slekton-Base Ball Cap</p>
+                <p>&#8377 199</p>
+              </div>
+
+               <div class="item-img-2">
+              </div>
+              <div class="item-name">
+                <p>Sneaker for Women</p>
+                <p>&#8377 999</p>
+              </div>
+
+               <div class="item-img-3">
+              </div>
+              <div class="item-name">
+                <p>Sleeveless T-shirt for Men</p>
+                <p>&#8377 199</p>
+              </div>
+
+               <div class="item-img-4">
+              </div>
+              <div class="item-name">
+                <p>Drawstring Zipper Fly Hoodie</p>
+                <p>&#8377 199</p>
+              </div>
+
+                 <div class="item-img-5">
+              </div>
+              <div class="item-name">
+                <p>Minimalist Hand Bag</p>
+                <p>&#8377 199</p>
+              </div> 
+            </div>           
+          </div>
+
+          <div class="new-arrivals">
+            <div class="arrivals">
+              <h2>New Arrivals</h2>
+            </div>
+                   <div class="item">
+              <div class="item-img-6">
+              </div>
+              <div class="item-name">
+                <p>Strathberry Bags Fasion </p>
+                <p>&#8377 699</p>
+              </div>
+
+               <div class="item-img-7">
+              </div>
+              <div class="item-name">
+                <p>Zapatos Formale Shoes</p>
+                <p>&#8377 1999</p>
+              </div>
+
+               <div class="item-img-8">
+              </div>
+              <div class="item-name">
+                <p>Flower White gradiant Girls Crop </p>
+                <p>&#8377 399</p>
+              </div>
+
+               <div class="item-img-9">
+              </div>
+              <div class="item-name">
+                <p>Men Two Tone Letter graphic Tee</p>
+                <p>&#8377 299</p>
+              </div>
+
+               <div class="item-img-10">
+              </div>
+              <div class="item-name">
+                <p>3-Piece Suit-Premium Quality Fomal</p>
+                <p>&#8377 9999</p>
+              </div>
+ 
+            </div>   
+          </div>
+        </div>
+     </div>
+<!--LAST-->
+     <div class="last">
+      <div class="flex-1">
+        <div class="grid">
+          <div class="grid-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <div class="grid-name">
+            <h4>Free Shipping</h4>
+            <p>On all order over &#8377 499 </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <div class="grid">
+          <div class="grid-icon">
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <div class="grid-name">
+            <h4>30 Days Return</h4>
+            <p>Money back Guarantee</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <div class="grid">
+          <div class="grid-icon">
+           <i class="fa-solid fa-key"></i>
+          </div>
+          <div class="grid-name">
+            <h4>Free Shipping</h4>
+            <p>On all order over $39.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1">
+        <div class="grid">
+          <div class="grid-icon">
+           <i class="fa-regular fa-clock"></i>
+          </div>
+          <div class="grid-name">
+            <h4>Free Shipping</h4>
+            <p>On all order over $39.00</p>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <!--FOOTER-->
+      <div class="footer">
+        <div class="footer-1">
+          <h1>Trend<span>Trove</span></h1>
+          <p class="caption">Discover endless treasures at Trentrove, where  shopping becomes an adventure.</p>
+          <p class="location"> <span>Location :</span> North South ,USA</p>
+          <p class="support-email"> <span>Support Email :</span> support@email.com</p>
+        </div>
+
+        <div class="footer-2">
+          <h3>Catagory</h3>
+          <ul>
+            <li><a href="#">Men's Fasion</a></li>
+            <li><a href="#">Women's Fasion</a></li>
+            <li><a href="#">Kids Fasion</a></li>
+            <li><a href="#">Shoe Collection</a></li>
+            <li><a href="#">Handbag's Collection</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-3">
+          <h3>Useful Link</h3>
+          <ul>
+            <li><a href="#">News & Tips</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Our Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        
+           <div class="footer-4">
+          <h3>Opening Hours</h3>
+        <div class="flex">
+          <div class="flex-1">
+            <p>Monday-Friday</p>
+            <p>Saturday</p>
+            <p>Sunday</p>
+          </div>
+          <div class="flex-1">
+            <p class="time">8.00-20.00</p>
+            <p class="time">10.00-20.00</p>
+            <p class="time">12-20.00</p>
+          </div>
+        </div>
+
+        <h3>Call Now : +5(305) 785-0437</h3>
+        </div>
+      </div>
+
+      <div class="last-footer">
+        <div class="link"> 
+           <p>@ Copyright Reserved to Adrian & made by <a href="#">Themefisher</a></p>
+          </div>
+
+          <div class="terms">
+            <ul>
+              <li><a href="#">Privary Policy</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Team of Sale</a></li>
+            </ul>
+          </div>
+      
+
+      </div>
+
+     
+      
+
+
+
+
+   <script src="script.js">
+
+   </script>
+  </body>
+</html>
